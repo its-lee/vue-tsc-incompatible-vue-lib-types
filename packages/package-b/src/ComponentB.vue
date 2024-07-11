@@ -9,14 +9,14 @@ defineProps<{
 }>();
 
 const rows = ref<MyRow[]>([
-  { value: 1, text: "one" },
-  { value: 2, text: "two" },
+  { value: "1", text: "one" },
+  { value: "2", text: "two" },
 ]);
 </script>
 
 <template>
   <component-a :rows="rows" non-generic="something">
-    <template v-slot="{ row }"></template>
+    <template v-slot="{ row }">{{ row.text }}</template>
   </component-a>
 </template>
 

@@ -1,0 +1,1 @@
+# vue-tsc-incompatible-vue-lib-types

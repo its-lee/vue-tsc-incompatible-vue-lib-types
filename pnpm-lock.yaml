@@ -29,20 +29,20 @@ importers:
     dependencies:
       vue:
         specifier: ^3.4.21
-        version: 3.4.21(typescript@5.4.4)
+        version: 3.4.21(typescript@5.5.2)
     devDependencies:
       '@vitejs/plugin-vue':
         specifier: ^5.0.4
         version: 5.0.4(vite@5.2.8)(vue@3.4.21)
       typescript:
-        specifier: ^5.2.2
-        version: 5.4.4
+        specifier: ^5.5.2
+        version: 5.5.2
       vite:
         specifier: ^5.2.0
         version: 5.2.8
       vue-tsc:
         specifier: ^2.0.26
-        version: 2.0.26(typescript@5.4.4)
+        version: 2.0.26(typescript@5.5.2)
 
   packages/package-b:
     dependencies:
@@ -51,20 +51,20 @@ importers:
         version: link:../package-a
       vue:
         specifier: ^3.4.21
-        version: 3.4.21(typescript@5.4.4)
+        version: 3.4.21(typescript@5.5.2)
     devDependencies:
       '@vitejs/plugin-vue':
         specifier: ^5.0.4
         version: 5.0.4(vite@5.2.8)(vue@3.4.21)
       typescript:
-        specifier: ^5.2.2
-        version: 5.4.4
+        specifier: ^5.5.2
+        version: 5.5.2
       vite:
         specifier: ^5.2.0
         version: 5.2.8
       vue-tsc:
         specifier: ^2.0.26
-        version: 2.0.26(typescript@5.4.4)
+        version: 2.0.26(typescript@5.5.2)
 
 packages:
 
@@ -433,7 +433,7 @@ packages:
       vue: ^3.2.25
     dependencies:
       vite: 5.2.8
-      vue: 3.4.21(typescript@5.4.4)
+      vue: 3.4.21(typescript@5.5.2)
     dev: true
 
   /@volar/language-core@2.2.0-alpha.6:
@@ -525,7 +525,7 @@ packages:
       vue-template-compiler: 2.7.16
     dev: true
 
-  /@vue/language-core@2.0.26(typescript@5.4.4):
+  /@vue/language-core@2.0.26(typescript@5.5.2):
     resolution: {integrity: sha512-/lt6SfQ3O1yDAhPsnLv9iSUgXd1dMHqUm/t3RctfqjuwQf1LnftZ414X3UBn6aXT4MiwXWtbNJ4Z0NZWwDWgJQ==}
     peerDependencies:
       typescript: '*'
@@ -540,7 +540,7 @@ packages:
       minimatch: 9.0.4
       muggle-string: 0.4.1
       path-browserify: 1.0.1
-      typescript: 5.4.4
+      typescript: 5.5.2
       vue-template-compiler: 2.7.16
     dev: true
 
@@ -569,7 +569,7 @@ packages:
     dependencies:
       '@vue/compiler-ssr': 3.4.21
       '@vue/shared': 3.4.21
-      vue: 3.4.21(typescript@5.4.4)
+      vue: 3.4.21(typescript@5.5.2)
 
   /@vue/shared@3.4.21:
     resolution: {integrity: sha512-PuJe7vDIi6VYSinuEbUIQgMIRZGgM8e4R+G+/dQTk0X1NEdvgvvgv7m+rfmDH1gZzyA1OjjoWskvHlfRNfQf3g==, tarball: https://packages.atlassian.com/api/npm/npm-remote/@vue/shared/-/shared-3.4.21.tgz}
@@ -736,6 +736,11 @@ packages:
     engines: {node: '>=14.17'}
     hasBin: true
 
+  /typescript@5.5.2:
+    resolution: {integrity: sha512-NcRtPEOsPFFWjobJEtfihkLCZCXZt/os3zf8nTxjVH3RvTSxjrCamJpbExGvYOF+tFHc3pA65qpdwPbzjohhew==}
+    engines: {node: '>=14.17'}
+    hasBin: true
+
   /vite@5.2.8:
     resolution: {integrity: sha512-OyZR+c1CE8yeHw5V5t59aXsUPPVTHMDjEZz8MgguLL/Q7NblxhZUlTu9xSPqlsUO/y+X7dlU05jdhvyycD55DA==, tarball: https://packages.atlassian.com/api/npm/npm-remote/vite/-/vite-5.2.8.tgz}
     engines: {node: ^18.0.0 || >=20.0.0}
@@ -794,16 +799,16 @@ packages:
       typescript: 5.4.4
     dev: true
 
-  /vue-tsc@2.0.26(typescript@5.4.4):
+  /vue-tsc@2.0.26(typescript@5.5.2):
     resolution: {integrity: sha512-tOhuwy2bIXbMhz82ef37qeiaQHMXKQkD6mOF6CCPl3/uYtST3l6fdNyfMxipudrQTxTfXVPlgJdMENBFfC1CfQ==}
     hasBin: true
     peerDependencies:
       typescript: '>=5.0.0'
     dependencies:
       '@volar/typescript': 2.4.0-alpha.15
-      '@vue/language-core': 2.0.26(typescript@5.4.4)
+      '@vue/language-core': 2.0.26(typescript@5.5.2)
       semver: 7.6.0
-      typescript: 5.4.4
+      typescript: 5.5.2
     dev: true
 
   /vue@3.4.21(typescript@5.4.4):
@@ -820,6 +825,22 @@ packages:
       '@vue/server-renderer': 3.4.21(vue@3.4.21)
       '@vue/shared': 3.4.21
       typescript: 5.4.4
+    dev: false
+
+  /vue@3.4.21(typescript@5.5.2):
+    resolution: {integrity: sha512-5hjyV/jLEIKD/jYl4cavMcnzKwjMKohureP8ejn3hhEjwhWIhWeuzL2kJAjzl/WyVsgPY56Sy4Z40C3lVshxXA==, tarball: https://packages.atlassian.com/api/npm/npm-remote/vue/-/vue-3.4.21.tgz}
+    peerDependencies:
+      typescript: '*'
+    peerDependenciesMeta:
+      typescript:
+        optional: true
+    dependencies:
+      '@vue/compiler-dom': 3.4.21
+      '@vue/compiler-sfc': 3.4.21
+      '@vue/runtime-dom': 3.4.21
+      '@vue/server-renderer': 3.4.21(vue@3.4.21)
+      '@vue/shared': 3.4.21
+      typescript: 5.5.2
 
   /yallist@4.0.0:
     resolution: {integrity: sha512-3wdGidZyq5PB084XLES5TpOSRA3wjXAlIWMhum2kRcv/41Sn2emQ0dycQW4uZXLejwKvg6EsvbdlVL+FYEct7A==, tarball: https://packages.atlassian.com/api/npm/npm-remote/yallist/-/yallist-4.0.0.tgz}
